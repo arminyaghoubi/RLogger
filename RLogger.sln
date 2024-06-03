@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLogger", "RLogger\RLogger.csproj", "{6999F876-F4EC-42DE-AAA7-B3BFF081FD54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16459374-3E93-41A1-8702-672F220FECAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{27FF063C-D1FA-49E7-8666-1FC81F1BA638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{2A2CD494-8806-4717-B68C-2233D9897946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6999F876-F4EC-42DE-AAA7-B3BFF081FD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6999F876-F4EC-42DE-AAA7-B3BFF081FD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6999F876-F4EC-42DE-AAA7-B3BFF081FD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6999F876-F4EC-42DE-AAA7-B3BFF081FD54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2CD494-8806-4717-B68C-2233D9897946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2CD494-8806-4717-B68C-2233D9897946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2CD494-8806-4717-B68C-2233D9897946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2CD494-8806-4717-B68C-2233D9897946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6999F876-F4EC-42DE-AAA7-B3BFF081FD54} = {16459374-3E93-41A1-8702-672F220FECAF}
+		{2A2CD494-8806-4717-B68C-2233D9897946} = {27FF063C-D1FA-49E7-8666-1FC81F1BA638}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49D7524B-F6BD-4A9C-B12C-20510CB13A48}
+	EndGlobalSection
+EndGlobal
